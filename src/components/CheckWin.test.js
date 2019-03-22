@@ -16,10 +16,10 @@ const setWon = (value) => {
     expect(CheckWin(squaresV, "X",setWon)).toBe("X");
   });
 
-  // test('3', () => {
-  //   var squaresV = [null, "O", null, "X", "X", "X", null, null, "O"];
-  //   expect(CheckWin(squaresV, "X",setWon )).toBe("X"); 
-  // }); 
+  test('3', () => {
+    var squaresV = [null, "O", null, "X", "X", "X", null, null, "O"];
+    expect(CheckWin(squaresV, "X",setWon )).toBe("X"); 
+  }); 
 
   // test('4', () => {
   //   var squaresV = [null, "O", null, "O", null, null, "X", "X", "X",];
