@@ -32,8 +32,8 @@ describe('Square', () => {
     console.log(wrapper.debug());
 
     // // Expect the wrapper object to be defined
-    // expect(wrapper.find('#squareButton')).toBeDefined();
-    // expect(wrapper.find('#squareValue')).toBeDefined();
+    expect(wrapper.find('#squareButton')).toBeDefined();
+    expect(wrapper.find('#squareValue')).toBeDefined();
 
   });
 
