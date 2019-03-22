@@ -59,10 +59,10 @@ const setWon = (value) => {
     expect(CheckWin(squaresV, "X" ,setWon)).toBe("X");  
   });  
 
-  // test('11', () => {
-  //   var squaresV = [null, "X", null, null, "X", null, null, "X", null];
-  //   expect(CheckWin(squaresV, "X" ,setWon)).toBe("X");  
-  // });  
+  test('11', () => {
+    var squaresV = [null, "X", null, null, "X", null, null, "X", null];
+    expect(CheckWin(squaresV, "X" ,setWon)).toBe("X");  
+  });  
 
   // test('12', () => {
   //   var squaresV = [null, null, "X", null, null, "X", null, null, "X"];
