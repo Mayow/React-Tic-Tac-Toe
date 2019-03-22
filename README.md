@@ -1,0 +1,3 @@
+Tic Tac Toe Game
+
+This assignment has been really interesting. Before this assignment I had never done Jest or Enzyme before so I'm very appreciative of this project because it helped me learn how to do Javascript Testing. I definitely ran into some issues while learning how to do the JavaScript Testing. I had to refractor some of my code due to the testing. I included as many test cases as I possibly could. Next time, what I do is to consider JavaScript testing while I'm writing the code for any application, just so I don't have to reorganize everything later on. The actual application was fairly easy for me to do. I stored the value within an array. Overall, this has been a wonderful experience for me. Thank you for the opportunity. 
