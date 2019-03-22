@@ -11,10 +11,10 @@ const setWon = (value) => {
     expect(CheckWin(squaresV, "X",setWon)).toBe("X");  
   }); 
 
-  // test('2', () => {
-  //   var squaresV = ["X", "X", "X", "O", null, "O", null, null, null];
-  //   expect(CheckWin(squaresV, "X",setWon)).toBe("X");
-  // });
+  test('2', () => {
+    var squaresV = ["X", "X", "X", "O", null, "O", null, null, null];
+    expect(CheckWin(squaresV, "X",setWon)).toBe("X");
+  });
 
   // test('3', () => {
   //   var squaresV = [null, "O", null, "X", "X", "X", null, null, "O"];
