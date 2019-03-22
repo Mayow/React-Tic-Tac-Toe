@@ -38,11 +38,11 @@ const setWon = (value) => {
     expect(CheckWin(squaresV, "O" ,setWon)).toBe(undefined); 
   });  
 
-  // //Not a win, test call return undefined as expected 
-  // test('7', () => {
-  //   var squaresV = [null, null, null, null, null, null, null, null, null];
-  //   expect(CheckWin(squaresV, null ,setWon)).toBe(undefined); 
-  // });  
+  //Not a win, test call return undefined as expected 
+  test('7', () => {
+    var squaresV = [null, null, null, null, null, null, null, null, null];
+    expect(CheckWin(squaresV, null ,setWon)).toBe(undefined); 
+  });  
 
   // test('8', () => {
   //   var squaresV = ["X", "X", "X", "X", "X", "X", "X", "X", "X"];
