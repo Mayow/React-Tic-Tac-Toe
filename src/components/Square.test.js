@@ -3,22 +3,22 @@ import Square from './Square'
 import { mount, shallow, render, Enzyme } from 'enzyme';
 
 
-it('renders without crashing', () => {
-  const count=0
-  const turn= "X";
-  const squareV= Array(9).fill(null);
-  const setWon= " X";
+// it('renders without crashing', () => {
+//   const count=0
+//   const turn= "X";
+//   const squareV= Array(9).fill(null);
+//   const setWon= " X";
 
-  const newTurn = () => {
-    ChangeTurns(turn, setTurn);
-    setCount(count + 1);
-    const sValue = squareV.slice();
-    setHistory(history.concat([sValue]));
-  }
+//   const newTurn = () => {
+//     ChangeTurns(turn, setTurn);
+//     setCount(count + 1);
+//     const sValue = squareV.slice();
+//     setHistory(history.concat([sValue]));
+//   }
 
-  shallow( <Square setWon={setWon} num={0} newTurn={newTurn} 
-            turn={turn} squareV={squareV} /> );
-});
+//   shallow( <Square setWon={setWon} num={0} newTurn={newTurn} 
+//             turn={turn} squareV={squareV} /> );
+// });
 
 describe('Square', () => {
 
@@ -31,9 +31,9 @@ describe('Square', () => {
     // Let's check what wrong in our instance
     console.log(wrapper.debug());
 
-    // Expect the wrapper object to be defined
-    expect(wrapper.find('#squareButton')).toBeDefined();
-    expect(wrapper.find('#squareValue')).toBeDefined();
+    // // Expect the wrapper object to be defined
+    // expect(wrapper.find('#squareButton')).toBeDefined();
+    // expect(wrapper.find('#squareValue')).toBeDefined();
 
   });
 
